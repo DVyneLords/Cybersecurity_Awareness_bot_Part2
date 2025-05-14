@@ -1,2 +1,50 @@
 # Cybersecurity_Awareness_bot_Part2
 Welcome to Part 2 of the POE get ready to be amazed by the power of AI.
+
+The Cybersecurity Assistant Chatbot is a console-based AI chatbot designed to help users with cybersecurity-related questions.
+It provides personalized responses based on the user's name and interests, remembers conversation history during the session, 
+and offers predefined tips on topics like passwords, scams, and malware. 
+The bot integrates with the Azure OpenAI API to generate context-aware responses and even suggests improvements based on user inactivity.
+
+Key features include sentiment-aware responses, a fuzzy matching system to handle minor spelling errors, 
+and a 15-second inactivity timer that offers personalized advice.
+The chatbot also allows users to export chat history as a text file. 
+It's a helpful tool for anyone seeking cybersecurity guidance,
+offering practical tips and expert advice throughout the conversation.
+
+This chatbot leverages Azure OpenAI for smart responses, tracks user sentiment, and provides tailored advice.
+It also includes a spell-checking system and allows users to request summaries of their conversations.
+
+10 Things You Need to Know:
+
+1.Personalized Responses: The bot uses your name and interests to provide tailored responses.
+
+2.Context Memory: It keeps track of conversation history within a session to maintain context.NB, the bot will only answer once questions like what is a pin and after 
+it responds you ask it how can i apply it to my device because the AI has a limit you can overload it once if you want to ask it again like 
+what is a firewall and after it responds you ask it how does it work you must first end the program and start afresh.
+
+3.Predefined Tips: Offers quick advice on common cybersecurity topics like passwords, scams, and malware.
+
+4.Sentiment Analysis: It detects emotional tones (e.g., worry or curiosity) and adjusts responses.
+
+5.Inactivity Timeout: After 15 seconds of inactivity, the bot offers personalized cybersecurity advice.
+
+6.Spell Correction: It detects common misspelled words and offers corrections.
+
+7.Levenshtein Distance: Uses fuzzy matching to handle typos and slight variations in user input.
+
+8.API Integration: The bot interacts with the Azure OpenAI API for context-aware responses.
+
+9.Conversation Summary: You can request a summary of your conversation at any time.
+
+10.Chat Export: At the end of the session, you can export the entire conversation to a text file.
+
+
+
+
+
+
+
+
+
+
