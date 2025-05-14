@@ -1,3 +1,11 @@
+Part 1 Description:
+
+The first part of the Cybersecurity Awareness Chatbot project is a basic command-line application designed to introduce users to essential cybersecurity concepts in a friendly and interactive way. Upon launch, the chatbot greets users with a voice message using a WAV file and displays an ASCII art image of a locker to create a thematic visual experience. The chatbot allows users to ask questions about common cybersecurity topics such as phishing, safe passwords, suspicious links, and malware. It uses keyword recognition to match user input with predefined responses, ensuring that relevant information is shared in a simple, understandable manner. The console interface is enhanced with color-coded text—blue for user input and green for bot responses—along with clean dividers and borders to maintain a neat appearance. The chatbot also personalizes responses by addressing the user by name and presents a clear opening prompt to guide the interaction.
+
+How to Run the Chatbot:
+
+To run the chatbot, ensure you have the .NET SDK or a suitable C# compiler installed on your system. Open a terminal or command prompt and navigate to the folder containing the chatbot source files. Compile the chatbot using the appropriate build command (e.g., dotnet build if you're using a .NET project). Once compiled, execute the program with dotnet run or by launching the compiled executable file. Make sure the WAV greeting file and ASCII art text file are placed in the correct directory as specified in the code. When the program starts, it will greet the user with sound, display the ASCII logo, and prompt with “Ask me a question or press exit to enter.” Users can then interact with the bot by typing cybersecurity questions, and the bot will respond accordingly. Version control is managed using GitHub, and a CI pipeline is set up to ensure consistent and error-free builds during development.
+
 # Cybersecurity_Awareness_bot_Part2
 Welcome to Part 2 of the POE get ready to be amazed by the power of AI.
 
